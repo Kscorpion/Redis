@@ -18,8 +18,8 @@ var (
 func main() {
 	//ExampleClient()
 	rdb := redis.NewClient(&redis.Options{
-		Addr:     "10.208.50.51:1429",
-		Password: "7a5ebedd6de38430", // no password set
+		Addr:     "10.18.1.1:1329",
+		Password: "7a5ebedd222220", // no password set
 		DB:       0,                  // use default DB
 	})
 
